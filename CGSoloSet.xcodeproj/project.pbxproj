@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7004A7D24F77E110047D353 /* CGGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004A7C24F77E110047D353 /* CGGame.swift */; };
+		F7004A7F24F77E430047D353 /* CGCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004A7E24F77E430047D353 /* CGCard.swift */; };
+		F7004A8124F786DC0047D353 /* CGBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004A8024F786DC0047D353 /* CGBoard.swift */; };
+		F7004A8324F792A70047D353 /* CGCardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004A8224F792A70047D353 /* CGCardViews.swift */; };
+		F7004A8524F793060047D353 /* CGCardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004A8424F793060047D353 /* CGCardButton.swift */; };
 		F76D0A2F24EB958E00949835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D0A2E24EB958E00949835 /* AppDelegate.swift */; };
 		F76D0A3124EB958E00949835 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D0A3024EB958E00949835 /* SceneDelegate.swift */; };
 		F76D0A3324EB958E00949835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D0A3224EB958E00949835 /* ViewController.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7004A7C24F77E110047D353 /* CGGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGGame.swift; sourceTree = "<group>"; };
+		F7004A7E24F77E430047D353 /* CGCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGCard.swift; sourceTree = "<group>"; };
+		F7004A8024F786DC0047D353 /* CGBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGBoard.swift; sourceTree = "<group>"; };
+		F7004A8224F792A70047D353 /* CGCardViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGCardViews.swift; sourceTree = "<group>"; };
+		F7004A8424F793060047D353 /* CGCardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGCardButton.swift; sourceTree = "<group>"; };
 		F76D0A2B24EB958E00949835 /* CGSoloSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGSoloSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76D0A2E24EB958E00949835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F76D0A3024EB958E00949835 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +116,11 @@
 				F76D0A3724EB959000949835 /* Assets.xcassets */,
 				F76D0A3924EB959000949835 /* LaunchScreen.storyboard */,
 				F76D0A3C24EB959000949835 /* Info.plist */,
+				F7004A7C24F77E110047D353 /* CGGame.swift */,
+				F7004A7E24F77E430047D353 /* CGCard.swift */,
+				F7004A8024F786DC0047D353 /* CGBoard.swift */,
+				F7004A8224F792A70047D353 /* CGCardViews.swift */,
+				F7004A8424F793060047D353 /* CGCardButton.swift */,
 			);
 			path = CGSoloSet;
 			sourceTree = "<group>";
@@ -259,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7004A8124F786DC0047D353 /* CGBoard.swift in Sources */,
 				F76D0A3324EB958E00949835 /* ViewController.swift in Sources */,
 				F76D0A2F24EB958E00949835 /* AppDelegate.swift in Sources */,
 				F76D0A3124EB958E00949835 /* SceneDelegate.swift in Sources */,
+				F7004A7D24F77E110047D353 /* CGGame.swift in Sources */,
+				F7004A8524F793060047D353 /* CGCardButton.swift in Sources */,
+				F7004A8324F792A70047D353 /* CGCardViews.swift in Sources */,
+				F7004A7F24F77E430047D353 /* CGCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
