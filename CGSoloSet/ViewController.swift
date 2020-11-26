@@ -114,7 +114,6 @@ class ViewController: UIViewController {
   @objc func didTapCard(_ sender: UIButton) {
     let index = CGCardViews!.buttons.firstIndex(of: sender as! CGCardButton)!
     cgGame.selectCard(at: index)
-    
     displayCards()
   }
   
@@ -127,20 +126,16 @@ class ViewController: UIViewController {
     cgGame.dealCards()
     CGCardViews!.addCardButtons()
     assignTargetAction()
-    
     displayCards()
   }
   
   /// Restarts the current game.
   @IBAction func didTapNewGame(_ sender: UIButton) {
     cgGame.reset()
-    
     cgGame.dealCards(forAmount: 12)
     CGCardViews!.clearCardContainer()
     CGCardViews!.addCardButtons(byAmount: 12)
     assignTargetAction()
-    
     displayCards()
   }
-  
 }

@@ -10,8 +10,6 @@ import Foundation
 
 
 struct CGCard {
-  
-
   private(set) var sequence: AttributeSequence
   
   init(sequence: AttributeSequence) {
@@ -20,13 +18,10 @@ struct CGCard {
 }
 
 extension CGCard: Hashable {
-  
-
   var hashValue: Int {
     return Int("\(sequence.number.rawValue)\(sequence.color.rawValue)\(sequence.symbol.rawValue)\(sequence.shading.rawValue)")!
   }
-  
-
+	
   static func ==(lhs: CGCard, rhs: CGCard) -> Bool {
     return lhs.sequence == rhs.sequence
   }
@@ -34,14 +29,9 @@ extension CGCard: Hashable {
 
 
 struct AttributeSequence {
-  
-
   var number: Number = .none
-
   var color: Color = .none
- 
   var symbol: Symbol = .none
-
   var shading: Shading = .none
 
   mutating func add(feature: Attribute) {
